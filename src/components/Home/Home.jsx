@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="bg-blue-950 h-svh" id="home">
+    <div className="h-svh" id="home">
       <Navbar/>
     </div>
   )
@@ -8,7 +8,7 @@ function Home() {
 
 function Navbar() {
   return (
-    <nav className="flex justify-between px-5 py-5">
+    <nav className="flex justify-between py-7">
       <div className="logo">
         <a href="#home"><p>lsd1code</p></a>
       </div>
