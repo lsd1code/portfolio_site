@@ -2,8 +2,14 @@ import { useState } from "react"
 
 function Home() {
   return (
-    <div className="h-svh" id="home">
+    <div className="h-svh py-4" id="home">
       <Navbar/>
+      <main className="bg-linear-to-r/decreasing from-[#] border-2 border-gray-600/50 md:text-center place-content-center space-y-3 rounded-md md:h-[90%] mt-2 md:px-4">
+        <p>Backend Software Engineer</p>
+        <h1 className="text-[#F35034] text-6xl">Lesedi Thibile</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus nostrum veniam veritatis beatae quaerat, sit repellat culpa possimus aperiam quae necessitatibus nihil in sed quibusdam inventore minima neque sapiente?</p>
+        <button className="bg-[#E63E21] rounded-sm px-6 py-2 shadow-2xl shadow-[#E4643F]">Hire Me</button>
+      </main>
     </div>
   )
 }
@@ -12,9 +18,9 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="flex justify-between md:py-7 py-2">
+    <nav className="flex justify-between content-center py-2 md:py-3 border-2 border-gray-600/50 rounded-md md:px-4">
       <div className="logo">
-        <a href="#home"><p>lsd1code</p></a>
+        <a href="#home"><p className="text-[#F35034]">lsd1code</p></a>
       </div>
 
       <button className="cursor-pointer md:hidden" onClick={() => setIsOpen(!isOpen)}>navbar</button>
