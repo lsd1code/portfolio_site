@@ -5,7 +5,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
   return (
-    <div className="w-full text-[1.5em] text-gray-950 px-10">
+    <div className="w-full text-gray-950 md:px-10 px-3.5">
       <Home/>
       <About/>
       <Portfolio/>
@@ -17,7 +17,7 @@ function App() {
 
 function Footer() {
   return (
-    <footer className="text-sm py-3 flex content-center justify-between">
+    <footer className="text-[.6rem] py-3 flex content-center justify-between opacity-80">
       <span className="logo">
         <a href="#home">lsd1code</a>
       </span>
