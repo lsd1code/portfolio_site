@@ -17,7 +17,7 @@ function App() {
 
 function Footer() {
   return (
-    <footer className="text-[.6rem] md:text-[1rem] py-3 flex content-center justify-between opacity-80">
+    <footer className="border-2 border-gray-600/50 rounded-md mt-4 px-4 text-[.6rem] md:text-[.75rem] py-3 flex content-center justify-between opacity-80">
       <span className="logo">
         <a href="#home">lsd1code</a>
       </span>

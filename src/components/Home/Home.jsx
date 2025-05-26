@@ -4,11 +4,11 @@ function Home() {
   return (
     <div className="h-svh py-4" id="home">
       <Navbar/>
-      <main className="bg-linear-to-r/decreasing from-[#] border-2 border-gray-600/50 md:text-center place-content-center space-y-3 rounded-md md:h-[90%] mt-2 md:px-4">
+      <main className="border-2 border-gray-600/50 md:text-center place-content-center space-y-3 rounded-md md:h-[90%] mt-2 md:px-4">
         <p>Backend Software Engineer</p>
+        <p className="text-3xl">Code. Optimize. Scale.</p>
         <h1 className="text-[#F35034] text-6xl">Lesedi Thibile</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus nostrum veniam veritatis beatae quaerat, sit repellat culpa possimus aperiam quae necessitatibus nihil in sed quibusdam inventore minima neque sapiente?</p>
-        <button className="bg-[#E63E21] rounded-sm px-6 py-2 shadow-2xl shadow-[#E4643F]">Hire Me</button>
+        <button className="cursor-pointer bg-[#E63E21] rounded-sm px-6 py-2 shadow-2xl shadow-[#E4643F]">View Resume</button>
       </main>
     </div>
   )
